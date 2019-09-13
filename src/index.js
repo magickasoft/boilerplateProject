@@ -1,5 +1,5 @@
 import React from 'react';
-import {RNHelp} from './screens';
+import {RNHelp} from 'screens';
 
 function wrapper() {
   return <RNHelp />;
