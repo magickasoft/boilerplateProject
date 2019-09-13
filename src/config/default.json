@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "static": {
+    "termsOfUse": "https://yandex.ru/terms-and-conditions.html",
+    "privacyPolicy": "https://yandex.ru/privacy-policy.html"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "url": "https://yandex.ru/api/v1/",
+  "ws": "wss://yandex.ru/ws/connect/"
+}
