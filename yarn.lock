@@ -2464,6 +2464,11 @@ get-caller-file@^1.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
   integrity sha512-3t6rVToeoZfYSGd8YoLFR2DJkiQrIiUrGcjvFX2mDw3bn6k2OtwHN0TNCLbBO+w8qTvimhDkv+LSscbJY1vE6w==
 
+get-lookup@^1.0.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/get-lookup/-/get-lookup-1.1.2.tgz#95bb16eebb7ee25afa1c2e9558842167312d73b4"
+  integrity sha512-apDwbonBKHNp/9T1YbaynVp7VMNT9X9I4dwUjpm4EU9c8q2q4lPdmwggn08KxARPSS7kekKxMx6klVbpTpGUEg==
+
 get-stream@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
@@ -3215,6 +3220,11 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+"lodash.set@>= 3.7.0":
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
+  integrity sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=
 
 lodash.throttle@^4.1.1:
   version "4.1.1"
@@ -5458,6 +5468,14 @@ unset-value@^1.0.0:
   dependencies:
     has-value "^0.3.1"
     isobject "^3.0.0"
+
+update-js@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/update-js/-/update-js-1.7.3.tgz#9f750b47ec7081c5bd5b14815a6aa2b09015d1b0"
+  integrity sha512-8vrQaUZRl3Nfh1ZX8lXQUUrhxSYMFdX9YPiULy6/xGiWEZZ8FktmPaB7VMRt3yL0fNBaOn53AtBaFpPFJ834tg==
+  dependencies:
+    get-lookup "^1.0.0"
+    lodash.set ">= 3.7.0"
 
 uri-js@^4.2.2:
   version "4.2.2"
