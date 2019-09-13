@@ -3,8 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "react-native start",
-    "lint": "eslint ."
+    "cli": "node node_modules/react-native/local-cli/cli.js",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "cold-start": "yarn start --reset-cache",
+    "lint": "./node_modules/.bin/eslint .",
+    "format": "./node_modules/.bin/eslint --fix .",
+    "android": "yarn cli run-android",
+    "android-fix": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && yarn cli run-android",
+    "ios": "yarn cli run-ios"
   },
   "dependencies": {
     "react": "16.8.6",
