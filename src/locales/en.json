@@ -1,0 +1,17 @@
+{
+  "connection": {
+    "text": {
+      "serviceFailure": "Sorry, we are having hard time connecting to %{appName}.",
+      "checkYourConnection": "Please check your internet connection."
+    }
+  },
+  "gpsService": {
+    "title": "<h2>Use Location ?</h2>This app wants to change your device settings:<br/><br/>Use GPS, Wi-Fi, and cell network for location<br/>",
+    "button": {
+      "no": "No",
+      "ok": "Ok"
+    }
+  },
+  "Close": "Close",
+  "Set": "Set"
+}
